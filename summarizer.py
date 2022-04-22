@@ -23,12 +23,12 @@ else:
     _max_length = 200
     _early_stopping = True
 
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 _num_beams = col1.number_input("num_beams", value=_num_beams)
 _no_repeat_ngram_size = col2.number_input("no_repeat_ngram_size", value=_no_repeat_ngram_size)
 _length_penalty = col3.number_input("length_penalty", value=_length_penalty)
 
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 _min_length = col1.number_input("min_length", value=_min_length)
 _max_length = col2.number_input("max_length", value=_max_length)
 _early_stopping = col3.number_input("early_stopping", value=_early_stopping)
