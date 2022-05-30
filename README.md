@@ -1,3 +1,2 @@
-# NLP-Projects
-
-1 - Text Summarizer
+Text Summarizer Streamlit link -https://share.streamlit.io/sayyam1234/nlp-projects/main/summarizer.py
+ 
